@@ -1,27 +1,17 @@
-variable "name" {
-
-}
+variable "name" {}
 
 resource "random_id" "random" {
+  keepers {
+    uuid = "${uuid()}"
+  }
 
-keepers {
-
-uuid = "${uuid()}"
-
-}
-
-byte_length = 32
-
+  byte_length = 32
 }
 
 output "random" {
-
-value = "${random_id.random.hex}"
-
+  value = "${random_id.random.hex}"
 }
 
 output "hello_world" {
-
-value = "Hello, ${var.name}"
-
+  value = "Hello, ${var.name}"
 }

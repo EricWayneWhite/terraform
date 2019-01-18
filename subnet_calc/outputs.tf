@@ -1,11 +1,11 @@
 output "cidr_primary" {
   description = "This is the CIDR block provided for the primary VPC"
-  value = "${var.cidr_primary}"
+  value       = "${var.cidr_primary}"
 }
 
 output "cidr_secondary" {
   description = "This is the CIDR block provided for the secondary VPC"
-  value = "${var.cidr_secondary}"
+  value       = "${var.cidr_secondary}"
 }
 
 output "private_subnets_primary" {
