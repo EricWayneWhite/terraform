@@ -1,0 +1,41 @@
+aws_region = ""
+
+aws_profile = ""
+
+################
+# Lab1 variables
+script_version = ""
+
+lab1_bucket_name = ""
+
+lab1_role_name = ""
+
+lab1_role_s3_policy_name = ""
+
+lab1_role_cloudwatch_policy_name = ""
+
+lab1_lambda_function_name = ""
+
+################
+# Lab2 variables
+lab2_kinesis_stream_name = ""
+
+lab2_role_name = ""
+
+lab2_role_kinesis_policy_name = ""
+
+lab2_role_cloudwatch_policy_name = ""
+
+lab2_lambda_function_name = ""
+
+################
+# Lab3 variables
+lab3_dynamodb_table_name = ""
+
+lab3_role_name = ""
+
+lab3_role_dynamodb_policy_name = ""
+
+lab3_role_cloudwatch_policy_name = ""
+
+lab3_lambda_function_name = ""
