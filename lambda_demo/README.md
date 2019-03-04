@@ -1,6 +1,6 @@
 Lambda Demo Labs
 ================
-This is a representation of the [A Cloud Guru](https://acloud.guru/) AWS Lambda course created in Terraform.  Running the Terraform will create all the resources for all three labs.  Read the descriptions below for details on each lab.
+This is a project based on the [A Cloud Guru](https://acloud.guru/) AWS Lambda course where I have recreated all of the items using Terraform.  Running the Terraform will create all the resources for all three labs.  Read the descriptions below for details on each lab.
 
 
 Lab1
