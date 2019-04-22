@@ -5,8 +5,9 @@
 *.tfstate
 *.tfstate.*
 
-# .tfvars files
+# terraform files to exclude
 *.tfvars
+backend.tf
 
 # Ansible retry files
 *.retry
