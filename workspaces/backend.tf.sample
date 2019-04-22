@@ -1,0 +1,12 @@
+# This uses the Hashicorp Terraform Enterprise Free Tier
+# https://app.terraform.io/app
+
+terraform {
+  backend "remote" {
+    organization = "<organization_name>"
+
+    workspaces {
+      prefix = "<prefix_name>" # like "app-name_"
+    }
+  }
+}

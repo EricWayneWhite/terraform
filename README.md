@@ -2,7 +2,7 @@ Terraform Examples
 ==================
 ### A collection of Terraform examples
 
-Each directory contains an example, check the README.md file in each for more details.  In general, you will navigate to each directory and do you terraform init/plan/apply, but some may require additional configuration for variables specific to you.
+Each directory contains an example, be sure to check the README.md file in each for more details.  In general, you will navigate to each directory and do your terraform init/plan/apply, but some may require additional configuration for variables specific to you.
 
 
 General Notes
@@ -16,7 +16,7 @@ The [terraform-docs](https://github.com/segmentio/terraform-docs) package can be
   * Validate, format, then add input/output values to your README.md file (Note that you'll need to add the `<!--Start-->` and `<!--End-->` comments)
 * Installing on Linux
 ```bash
-# You'll need to have go installed to build the package
+# You'll need to have golang installed to build the binary
 # Instructions are here: https://github.com/segmentio/terraform-docs
 go get github.com/segmentio/terraform-docs
 
